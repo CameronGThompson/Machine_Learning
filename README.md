@@ -1,2 +1,5 @@
 # Machine_Learning
-This repository contains scripts used for a piece of coursework for my machine learning module.
+
+This repository contains scripts used for an assignment for my machine learning module. The assignment involved training a binary classification model of our choice to predict if a set of human genes contributed to the same disease or not. The training set was comprised of sets of genes known to be involved in the same disease (or from random sets of unrelated genes). Rather than building my own ML method from scratch, I employed existing ML methods available in popular Python packages such as sklearn.
+
+The second part of the assignment involved running a set of 225 UniProt accessions through the UniProt ID mapping tool and saving the results. We then had to write a Python script to generate a .csv file that contained two columns: one containing each unique INTERPRO ID present in the results from the search, and the other containing the number of genes from my search that were tagged with those INTERPRO IDs.
